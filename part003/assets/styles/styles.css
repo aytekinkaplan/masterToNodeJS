@@ -1,0 +1,519 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ================== */
+/* Top Section Start */
+/* ================== */
+
+/* Navbar */
+.group01 {
+  background-color: white;
+  padding: 60px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.menu ul {
+  display: flex;
+  gap: 70px;
+}
+
+.menu ul li {
+  padding: 10px 0;
+}
+
+.logo p {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.getStartedFree a {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.menu ul li a {
+  color: black;
+  font-weight: 700;
+}
+
+/* Get Things Done by Awesome Remote Team */
+.group02 {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.group02 h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.group02 p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.group02 a {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Input Page */
+.group03 {
+  width: 50%;
+  height: 500px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: purple;
+  color: white;
+  padding: 60px 0;
+}
+
+/* Bottom of Top Section */
+.group04 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 30%;
+  text-align: left;
+}
+
+.box1 h3,
+.box2 h3,
+.box3 h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.box1 p,
+.box2 p,
+.box3 p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* ====================== */
+/* Middle-1 Section Start */
+/* ====================== */
+
+.group05 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+}
+
+.box4 {
+  width: 30%;
+  text-align: left;
+}
+
+.box4 h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.box4 p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.box4 a {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Grid Layout */
+.box5 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.box5 div {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+}
+
+/* ====================== */
+/* Middle-2 Section Start */
+/* ====================== */
+
+.group06 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+}
+
+.section {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.littleboxes1,
+.littleboxes3,
+.littleboxes5 {
+  text-align: left;
+}
+
+.littleboxes1 p,
+.littleboxes3 p,
+.littleboxes5 p {
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.littleboxes2 p,
+.littleboxes4 p,
+.littleboxes6 p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* ====================== */
+/* Middle-3 Section Start */
+/* ====================== */
+
+.group07 {
+  width: 100%;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+}
+
+.boxy1 {
+  width: 40%;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.boxy1 h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.boxy1 p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.boxy2 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.boxy2 div {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+}
+
+.boxy3 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+}
+
+.boxy3 h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.boxy3 p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* ====================== */
+/* Middle-4 Section Start */
+/* ====================== */
+
+.group08 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+}
+
+.group08 h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.group08 p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.group08 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* ====================== */
+/* Middle-5 Section Start */
+/* ====================== */
+
+.group09 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+  background-color: #161c2d;
+}
+
+.group09 h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.group09 p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.beautifulboxes1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 0;
+  width: 40%;
+}
+
+.beautifulboxes1 h3 {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.beautifulboxes2 {
+  display: flex;
+  gap: 30px;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+}
+
+.beautifulboxes3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  padding: 60px 0;
+  justify-content: space-around;
+}
+
+.fourLittleBoxes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 60px 0;
+  width: 40%;
+}
+
+.fourLittleBoxes p {
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.fourLittleBoxes h4 {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px;
+}
+
+.priceBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  gap: 5px;
+  padding: 60px 0;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+}
+
+.priceBox h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: royalblue;
+}
+
+.priceBox h3 {
+  font-size: 50px;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+
+.priceBox p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #161c2d;
+  margin: 30px;
+  text-align: center;
+}
+
+.priceBox a {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: royalblue;
+}
+
+/* ====================== */
+/* Middle-6 Section Start */
+/* ====================== */
+
+.group10 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+  background-color: whitesmoke;
+}
+
+.textBox {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 60px 0;
+  margin: 3%;
+}
+
+.textBox h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.textBox p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #161c2d;
+  margin-bottom: 20px;
+}
+
+.group10 a {
+  font-size: 20px;
+  font-weight: 400;
+  color: royalblue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+}
+
+.group10 a:nth-child(3) {
+  background-color: royalblue;
+  color: white;
+}
+
+/* ====================== */
+/* Bottom Section Start */
+/* ====================== */
+
+.group11 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 100px auto;
+  padding: 60px 0;
+  background-color: white;
+}
